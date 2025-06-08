@@ -10,23 +10,23 @@ let playOnceOnly = false;
 let addPointsOnce = false;
 
 let youWin = new Audio();
-youWin.src = "sound effects/you-win.mp3";
+youWin.src = "you-win.mp3";
 let youLose = new Audio();
-youLose.src = "sound effects/you-lose.mp3";
+youLose.src = "you-lose.mp3";
 let againButton = new Audio();
-againButton.src = "sound effects/again.mp3";
+againButton.src = "again.mp3";
 
 let plusSound = new Audio();
-plusSound.src = "sound effects/plusbtn.mp3";
+plusSound.src = "plusbtn.mp3";
 let minusSound = new Audio();
-minusSound.src = "sound effects/minusbtn.mp3";
+minusSound.src = "minusbtn.mp3";
 
 let wrongNumber1 = new Audio();
-wrongNumber1.src = "wrong number sounds/wrong-number-1.mp3";
+wrongNumber1.src = "wrong-number-1.mp3";
 let wrongNumber2 = new Audio();
-wrongNumber2.src = "wrong number sounds/wrong-number-2.mp3";
+wrongNumber2.src = "wrong-number-2.mp3";
 let wrongNumber3 = new Audio();
-wrongNumber3.src = "wrong number sounds/wrong-number-3.mp3";
+wrongNumber3.src = "wrong-number-3.mp3";
 
 document.querySelector(".plus").addEventListener("click", function () {
   document.querySelector(".message").textContent !== "Nice, you guessed it!!" &&
